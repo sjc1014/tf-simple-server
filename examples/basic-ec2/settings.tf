@@ -5,3 +5,7 @@ terraform {
     aws = ">= 2.65"
   }
 }
+
+provider "aws" {
+  region = "us-east-1"
+}
